@@ -1,0 +1,17 @@
+{
+  "network": {
+    "listen_addr": "12.0.0.0:8080",
+    "bootstrap_nodes": [],
+    "max_peers": 50
+  },
+  "consensus": {
+    "threshold": 0.7,
+    "min_votes": 3,
+    "block_time": 10
+  },
+  "blockchain": {
+    "difficulty": 4,
+    "max_transactions_per_block": 1000,
+    "genesis_block_reward": 100.0
+  }
+}
